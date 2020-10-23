@@ -1,0 +1,97 @@
+*{
+   padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background: url(../img/fondopantalla.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header{
+    opacity: 0.9;
+}
+#titulo2{
+    background-color: rgb(39, 35, 35) !important;
+    padding: 1%;
+    text-align: center;
+}
+
+.figura-carrusel{
+    height: 50% !important;
+    width: 100%;
+}
+.figura-carrusel img{
+    height: 500px !important;
+}
+#fila{
+    height: 50% !important;
+
+}
+footer{
+    width: 100%;
+    position: relative;
+    background-color: black;
+    bottom: 0px;
+    margin: 0px;
+}
+section{
+    min-height: 200vh-(282px);
+}
+.figure{
+background: black !important;
+}
+
+.contenido{
+    height: auto;
+    }
+    .recomendados{
+    height: 100%;
+    background-color: rgb(4, 12, 20, 0.5);
+    }
+    .imagen-agregado{
+        height: 100%;
+        width: 100%;
+    }
+    .contenido a{
+        text-decoration: none;
+    }
+    .contenido img{
+        transition: all 0.5 ease;
+    }
+    
+    .contenido img:hover {
+        transform:scale(1.05);
+        border-radius: 10px;
+    }
+    footer{
+        background-color:  rgb(4, 12, 20, 0.8);
+    }
+    .generos{
+        width: 100%;
+        margin: 0 auto;
+        height: 100%;
+    }
+    .aside-contenido{
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.71);
+    }
+    .generos .caja{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        background-color: rgb(4, 12, 20, 0.5); 
+        border: 5px solid;
+        width: 3rem !important;
+        /* margin: auto; */
+    }
+    .generos a{
+        color: orange;
+    }
+    .generos a:hover{
+        color: white;
+    }

@@ -1,0 +1,94 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+
+    background: url(../img/fondopantalla2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+header{
+    background-color: rgb(4, 12, 20, 0.7);
+}
+.titulo{
+    color: white;
+}
+.titulo span{
+    color: darkviolet;
+}
+.navegacion-principal .nav-link{
+    color:white;
+}
+.imagen-bg{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.informacion{
+    height: auto;
+}
+.informacion .img-avengers{
+    background-image: url(../img/avengers2.png);
+    height: 30rem;  
+}
+.informacion .sinopsis{
+    background-color: rgb(4, 12, 20, 0.5);
+}
+.video-pelicula
+{
+    width: 100%;
+}
+.contenido{
+height: auto;
+}
+.recomendados{
+height: 100%;
+background-color: rgb(4, 12, 20, 0.5);
+}
+.imagen-agregado{
+    height: 100%;
+    width: 100%;
+}
+.contenido a{
+    text-decoration: none;
+}
+.contenido img{
+	transition: all 0.5 ease;
+}
+
+img:hover {
+	transform:scale(1.05);
+	border-radius: 10px;
+}
+footer{
+    background-color:  rgb(4, 12, 20, 0.8);
+}
+.generos{
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+}
+.aside-contenido{
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.71);
+}
+.generos .caja{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(4, 12, 20, 0.5); 
+    border: 5px solid;
+    width: 3rem !important;
+    /* margin: auto; */
+}
+.generos a{
+    color: orange;
+}
+.generos a:hover{
+    color: white;
+}
